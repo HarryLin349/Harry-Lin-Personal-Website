@@ -83,6 +83,10 @@ a {
   color: #222831;
 }
 
+.nav-color {
+  color: #00adb5;
+}
+
 /* Download Buttons */
 .download {
   margin: 5% 3% 5% 0;
@@ -93,7 +97,6 @@ a {
   padding: 3% 15% 7%;
   text-align: left;
 }
-
 
 /* Title Image */
 .pfp-image {
@@ -143,27 +146,38 @@ a {
   color: #EEEEEE;
 }
 
-.project-desc{
+.project-desc {
   height: 250px;
 }
 
 /* Contact */
-#sectcontact{
+#sectcontact {
   text-align: center;
 }
-.contacttext{
+
+.contacttext {
   margin-bottom: 5%;
 }
 
-.contactlogo{
+.contactlogo {
   height: 180px;
   padding: 10px;
+  color: #393e46;
 }
 
-.contact-link{
+.contactgit:hover {
+  color: #00adb5;
+}
+
+.contactlinked:hover {
+  color: #00adb5;
+}
+
+.contact-link {
   background-color: #393e46;
   color: #EEEEEE;
 }
+
 .download-footer {
   margin: 0% 1% 8%;
 }

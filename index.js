@@ -45,3 +45,11 @@ jQuery($ => {
       }
     });
 });
+
+$(".contactgit").on("click", function(){
+  window.open("https://github.com/Olumas", "_blank");
+})
+
+$(".contactlinked").on("click", function(){
+  window.open("https://www.linkedin.com/in/harry-lin-1aaaba201/", "_blank");
+})
