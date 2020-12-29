@@ -1,0 +1,188 @@
+/*html elements */
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: #EEEEEE;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: 'Source Sans Pro';
+  font-size: 1.2rem;
+  color: #717171;
+}
+
+a {
+  color: #00adb5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 5% 15%;
+}
+
+/* Sections */
+.colored-section p {
+  color: #CBCBCB;
+}
+
+.colored-section {
+  background-color: #00adb5;
+  color: #EEEEEE;
+}
+
+.white-section {
+  background-color: #EEEEEE;
+  color: #222831;
+}
+
+/* Headings */
+.big-heading {
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.bold-heading {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-name {
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+  color: #222831;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #222831;
+}
+
+/* Download Buttons */
+.download {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+
+/* Title Image */
+.pfp-image {
+  width: 90%;
+  border-radius: 100%;
+}
+
+.box {
+  margin-right: 10%;
+}
+
+/* Skills */
+#sectskills {
+  text-align: center;
+  background-color: #00adb5;
+}
+
+.hLine {
+  border-color: #EEEEEE;
+  border-width: 2px;
+  width: 10%;
+  display: inline-block;
+}
+
+.hSect {
+  display: inline;
+  position: relative;
+  bottom: 5px;
+}
+
+.langlogo {
+  height: 120px;
+  padding: 10px;
+}
+
+.skillsect {
+  padding: 2% 0% 0%;
+}
+
+/* Projects Section */
+#sectprojects {
+  background-color: #393e46;
+}
+
+.git-link {
+  background-color: #00adb5;
+  color: #EEEEEE;
+}
+
+
+/* Contact */
+#sectcontact{
+  text-align: center;
+}
+.contacttext{
+  margin-bottom: 5%;
+}
+
+.contactlogo{
+  height: 180px;
+  padding: 10px;
+}
+
+.contact-link{
+  background-color: #393e46;
+  color: #EEEEEE;
+}
+.download-footer {
+  margin: 0% 1% 8%;
+}
+
+/* Footer  */
+#footer {
+  background-color: #EEEEEE;
+  margin: 5% 0% 5%;
+}
+
+.ficon {
+  margin: 0% 5px 0% 5px;
+}
+
+/* Media */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
