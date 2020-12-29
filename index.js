@@ -31,7 +31,7 @@ jQuery($ => {
   const speed = 600;
 
   $('a[href*="#"]')
-    .filter((i, a) => a.getAttribute('href').startsWith('#sect') || a.href.startsWith(`${location.href}#`))
+    .filter((i, a) => a.getAttribute('href').startsWith('#sect'))
     .unbind('click.smoothScroll')
     .bind('click.smoothScroll', event => {
       const targetId = event.currentTarget.getAttribute('href').split('#')[1];

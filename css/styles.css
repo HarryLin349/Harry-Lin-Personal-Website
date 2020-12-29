@@ -143,6 +143,9 @@ a {
   color: #EEEEEE;
 }
 
+.project-desc{
+  height: 250px;
+}
 
 /* Contact */
 #sectcontact{
