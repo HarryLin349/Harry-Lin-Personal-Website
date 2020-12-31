@@ -29,6 +29,10 @@ a {
   color: #00adb5;
 }
 
+/* Properties */
+.vertical-align {
+}
+
 /* Containers */
 .container-fluid {
   padding: 5% 15%;
@@ -146,9 +150,21 @@ a {
   color: #EEEEEE;
 }
 
-.project-desc {
-  height: 250px;
+.project-image {
+  height: 350px;
 }
+
+.project-desc {
+  height: 350px;
+  position: relative;
+}
+
+.project-container{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 
 /* Contact */
 #sectcontact {
@@ -178,10 +194,15 @@ a {
   color: #EEEEEE;
 }
 
-.download-footer {
-  margin: 0% 1% 8%;
-}
 
+.btn-xl{
+    padding: 18px 28px;
+    font-size: 22px; //change this to your desired size
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
 /* Footer  */
 #footer {
   background-color: #EEEEEE;
