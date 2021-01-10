@@ -131,11 +131,18 @@ a {
   bottom: 5px;
 }
 
+.langrow {
+  height: 140px;
+}
 .langlogo {
   height: 120px;
   padding: 10px;
+  transition: height 0.2s;
 }
 
+.langlogo:hover {
+  height: 130px;
+}
 .skillsect {
   padding: 2% 0% 0%;
 }
@@ -151,7 +158,12 @@ a {
 }
 
 .project-image {
-  height: 350px;
+  width: 100%;
+  margin: auto;
+}
+
+.project-video{
+  width: 100%;
 }
 
 .project-desc {
