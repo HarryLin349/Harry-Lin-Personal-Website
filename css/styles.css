@@ -31,6 +31,7 @@ a {
 
 /* Properties */
 .vertical-align {
+
 }
 
 /* Containers */
@@ -40,7 +41,7 @@ a {
 
 /* Sections */
 .colored-section p {
-  color: #CBCBCB;
+  color: #EEEEEE;
 }
 
 .colored-section {
@@ -106,6 +107,7 @@ a {
 .pfp-image {
   width: 90%;
   border-radius: 100%;
+  margin-top: 10%;
 }
 
 .box {
@@ -134,17 +136,24 @@ a {
 .langrow {
   height: 140px;
 }
+
 .langlogo {
-  height: 120px;
+  width: 60%;
   padding: 10px;
-  transition: height 0.2s;
+  transition: width 0.2s;
 }
 
+
 .langlogo:hover {
-  height: 130px;
+  width: 70%;
 }
+
 .skillsect {
   padding: 2% 0% 0%;
+}
+
+.skill-text{
+  color: pink;
 }
 
 /* Projects Section */
